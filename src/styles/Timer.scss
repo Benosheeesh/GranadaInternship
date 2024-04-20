@@ -1,0 +1,64 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/simple-blue-curve-background-business_53876-117343.jpg?w=996&t=st=1708687879~exp=1708688479~hmac=5df55b604b43c44230d236a8e8a7d70eaf0cc3b2ee255598159817a1ad1569eb");
+    background-size: cover;
+}
+.container {
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Tahoma;
+}
+
+.form {
+    margin-bottom: 20px;
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-family: Trebuchet MS, sans-serif;
+    }
+
+    input[type="datetime-local"] {
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #5482C0;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 13;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        background-color: #5482C0;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 13;
+    }
+    .btn:hover {
+        background-color: #0056b3;
+    }
+}
+
+.timer {
+    font-size: 36px;
+    font-family: Tahoma;
+}

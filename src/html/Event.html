@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Timing | Event Scheduler</title>
+    <link rel="stylesheet" href="../styles/Event.scss">
+</head>
+<body>
+    <div class="container">
+        <h1>Event Scheduler</h1>
+        <div class="event-form">
+            <label for="eventName">Event Name:</label>
+            <input type="text" id="eventName" required>
+            <label for="eventDateTime">Date and Time:</label>
+            <input type="datetime-local" id="eventDateTime" required>
+            <label for="eventLocation">Location:</label>
+            <input type="text" id="eventLocation">
+            <label for="eventDescription">Description:</label>
+            <textarea id="eventDescription"></textarea>
+            <button id="addEventBtn">Add Event</button>
+            <a href="../html/Home.html" class="btn">Home</a>
+        </div>
+        <div id="eventList" class="event-list"></div>
+    </div>
+    <script src="../scripts/Event.js" defer></script>
+</body>
+</html>
